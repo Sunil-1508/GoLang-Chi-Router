@@ -28,4 +28,5 @@ func (a *App) Start(ctx context.Context) error {
 		fmt.Println("error occured", err)
 	}
 
+	return nil
 }
